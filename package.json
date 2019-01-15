@@ -1,0 +1,31 @@
+{
+  "name": "vertx-es-app",
+  "version": "1.0.0",
+  "description": "vertx es app",
+  "main": "index.js",
+  "scripts": {
+    "start": "es4x exec run",
+    "test": "es4x exec test",
+    "postinstall": "es4x postinstall",
+    "package": "es4x package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellyfishgh/vertx-es-app.git"
+  },
+  "keywords": ["vertx"],
+  "author": "jellyfish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellyfishgh/vertx-es-app/issues"
+  },
+  "homepage": "https://github.com/jellyfishgh/vertx-es-app#readme",
+  "dependencies": {
+    "@vertx/core": "^3.6.2",
+    "@vertx/web": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vertx/unit": "^3.6.2",
+    "es4x-cli": "^0.1.1"
+  }
+}
